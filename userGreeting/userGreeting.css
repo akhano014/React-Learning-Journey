@@ -1,0 +1,15 @@
+.welcomemsg{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: black;
+}
+
+.tryagainmsg{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: black;
+}

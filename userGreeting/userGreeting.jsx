@@ -1,7 +1,7 @@
+import Styles from "./userGreeting.module.css"
 
-
-function userGreeting(props){
-    return(props.isLoggedin ? <h1>Welcome {props.username} </h1> : <h2>Please Try again Thank you</h2>);
+function UserGreeting(props){
+    return(props.isLoggedin ? <h1 className={Styles.welcomemsg}>Welcome {props.username} </h1> : <h2 className={Styles.tryagainmsg}>Please Try again Thank you</h2>);
 }
 
-export default userGreeting 
+export default UserGreeting 

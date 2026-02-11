@@ -1,8 +1,8 @@
- import userGreeting from "../userGreeting.jsx";
-function App() {
+ import UserGreeting  from "../userGreeting/userGreeting";
+ function App() {
     return (
         <> 
-          <userGreeting isLoggesin={true} username="Ahtisham khan"/>
+          <UserGreeting isLoggedin={false} username="Ahtisham khan"/>
         </>
         
     );
