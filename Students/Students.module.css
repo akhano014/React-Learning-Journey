@@ -1,0 +1,9 @@
+.Student{
+    font: 1em sans-serif;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 800;
+    width: 200px;
+    background-color: lightgreen;
+}
