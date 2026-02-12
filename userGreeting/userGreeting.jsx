@@ -8,13 +8,13 @@ function UserGreeting(props){
     return(props.isLoggedin ? welcomemsg: tryagianmsg );
 }
 
-UserGreeting.PropTypes{
-    welcomemsg:PropTypes.bool
-    tryagainmsg:PropTypes.string
+UserGreeting.propTypes={
+    welcomemsg:PropTypes.bool,
+    tryagainmsg:PropTypes.string,
 }
 
-UserGreeting.defaultProps{
-    isLoggedin:false
-    username:"Guest"
+UserGreeting.defaultProps={
+    isLoggedin:false,
+    username:"Guest",
 }
 export default UserGreeting 
